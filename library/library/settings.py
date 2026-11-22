@@ -2,7 +2,7 @@ from pathlib import Path
 import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-SECRET_KEY = 'replace-me'
+SECRET_KEY = 'REPLACE_WITH_SECURE_DJANGO_SECRET_KEY'
 DEBUG = True
 ALLOWED_HOSTS = []
 
